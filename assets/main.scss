@@ -491,7 +491,7 @@ section h2{
 }
 /* For tablet devices */
 @media (max-width:1024px) { 
-	#section1{background: url('/assets/images/skydivingsm.jpg') no-repeat center center; background-size:cover;height:400px;}
+	#section1{background: url('/assets/images/skydivingSm.jpg') no-repeat center center; background-size:cover;height:400px;}
 }
 @media (min-width:750px) { 
     #section2 .inline{
@@ -565,7 +565,7 @@ section h2{
 	}
 
 	#section1 .bcg {background-image:url('/assets/images/skydivingLg.jpg')}
-	.notfound #section1 .bcg {background-image:url('/assets/images/CloudsLg.jpg')}
+	.notfound #section1 .bcg {background-image:url('')}
 	#section1{
 		padding-bottom:0px;		
 		height:800px;
