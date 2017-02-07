@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="SHORTCUT ICON" HREF="{{site.image-path}}/favicon.ico">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+
+		<title>{{ site.title }}</title>
+		<meta name="description" content="{{ site.description }}">
+		<link rel="alternate" href="{{ site.url }}" hreflang="en-us" />
+		<link href="https://fonts.googleapis.com/css?family=Barrio|PT+Sans+Caption" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.7.8/css/jquery.mmenu.css" />
+		<link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="/assets/main.css" />		
+		<link type="text/css" rel="stylesheet" href="/assets/jquery.mmenu.positioning.css"  />
+		
+		<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+		
+	</head>
+	<body>
+		<div id="page">
+			<div class="header Fixed">				
+				<div class="logo"><a href="/">Rocky Mountain<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Skydive</a></div>
+				<div class="desktop nav">
+					<div class="wrapper">
+						{% include nav.html %}						
+					</div>					
+				</div>
+				<div class="hamburger-wrapper">
+					<a href="#menu">
+						<div id="hamburger">
+							  <span></span>
+							  <span></span>
+							  <span></span>
+							  <span></span>						
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="content">
+                {{ content}}
+            </div>
+            <div class="footer Fixed">
+				<div class="logo"></div>
+				<div class="copy">					
+					<a href="http://cloudpeakdev.com" target="_blank">Created by Cloud Peak Development</a> <span>| </span>
+					<a href="/">&copy 2017 Rocky Mountain Skydive</a>
+				</div>
+			</div>
+			<nav id="menu">
+				{% include nav.html %}
+			</nav>
+		</div>
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.7.8/js/jquery.mmenu.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.7.8/addons/fixedelements/jquery.mmenu.fixedelements.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+		<script type="text/javascript" src="/assets/js/common.js"></script>
+		
+	</body>
+</html>

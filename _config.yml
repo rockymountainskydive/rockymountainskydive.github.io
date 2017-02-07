@@ -1,0 +1,42 @@
+baseurl: ""
+url: "http://rockymountainskydive.github.io"
+
+description: > # this means to ignore newlines until "baseurl:"
+  Come fly above the Rocky Mountains with Colorado's most safe, friendly, and fun skydivers. 
+  Easy access from Cheyenne, Fort Collins, Windsor, Greeley, Longmont, Boulder, and Denver. 
+  Come for the tandem skydive, stay and learn how to become a licensed skydiver! 
+email: "RockyMountainSkydive@gmail.com"
+phone: "(303) 944-9708"
+phone_link: "+13039449708"
+address: "31608 Weld CO RD 74<br/>Galeton CO, 80622"
+map_link: "https://www.google.com/maps/place/31608+Weld+Co+Rd+74,+Galeton,+CO+80622/@40.5229609,-104.4606143,17z/data=!3m1!4b1!4m5!3m4!1s0x876e855befb6d7c3:0x43156ff5c3be7c5!8m2!3d40.5229609!4d-104.4584256"
+location_description: "We are located 10 miles east of Greeley on Weld county road 74.<br/><br/>Please call to make an appointment.	"
+hours: "Saturday & Sunday 7am to 7pm<br/>weather permitting."
+github_username:  rockymountainskydive
+facebook_link: "https://www.facebook.com/ColoradoSkydiveClub/"
+twitter_link: ""
+instagram_link: ""
+
+image-path: "/assets/images"
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+encoding: utf-8
+sass:
+  sass_dir: css
+#  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

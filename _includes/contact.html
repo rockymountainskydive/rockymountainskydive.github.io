@@ -1,0 +1,41 @@
+<section id="section3" class="contact-section">
+    <div class="inner">						
+        <div class="inline">
+            <div class="black-box">
+                <h3>OPENING HOURS</h3>
+                <div class="white-bar"></div>
+                <div class="black-bar"></div>
+                <div class="white-bar"></div>
+                <div class="black-bar"></div>
+                <div class="white-bar"></div>
+                <p>{{ site.hours }}</p>
+            </div>
+        </div>
+        <div class="inline">
+            <div class="black-box">
+                <h3>LOCATION</h3>
+                <div class="white-bar"></div>
+                <div class="black-bar"></div>
+                <div class="white-bar"></div>
+                <div class="black-bar"></div>
+                <div class="white-bar"></div>
+                <p>
+                   {{ site.location_description }}								
+                </p>
+                <div class="contact-bar">
+                    <div><a href="{{ site.map_link }}" target="_blank">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i><br/>{{ site.address }}
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i>{{ site.email }}</a>
+                    </div>									
+                </div>
+                <div class="phone">
+                        <a href="tel:{{ site.phone_link }}"><i class="fa fa-phone" aria-hidden="true"></i> {{ site.phone }}</a>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
