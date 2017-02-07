@@ -445,7 +445,6 @@ section h2{
         color:#fff;
         font-size:35px;
     }
-   
 	
 	#section2 .inner, #section3 .inner{
 	 max-width:1020px;
@@ -478,8 +477,8 @@ section h2{
     
     /* Inner Pages */
     .inner-pg #section1 h1{
-        font-size:72px;
-        padding-top:127px;
+        font-size:62px;
+        padding-top:59px;
     }
     .inner-pg section h2{
         padding-top:60px;
@@ -584,6 +583,10 @@ section h2{
 		height:300px;
 		max-height:300px;
 	}
+    .inner-pg #section1 h1{
+        font-size:72px;
+        padding-top:127px;
+    }
     #section1 .tagline{
         padding-top:0;
     }
