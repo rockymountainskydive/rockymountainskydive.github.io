@@ -345,7 +345,7 @@ section h2{
 }
 
 #section1 h3 a{
-	color:#0f75bc;
+	color:#fff;
     font-size:25px;
 }
 
@@ -384,7 +384,6 @@ section h2{
 }
 
 .inner-pg #section1{
-	background-image:url('/assets/images/skydivingInnerLg.jpg');
     height:120px;
 }
 .inner-pg section h1{
@@ -498,7 +497,13 @@ section h2{
 }
 /* For tablet devices */
 @media (max-width:1024px) { 
-	#section1{background: url('/assets/images/skydivingSm.jpg') no-repeat center center; background-size:cover;height:400px;}
+	#section1{background: url('/assets/images/tomtandemsm.jpg') no-repeat center center; background-size:cover;height:400px;}
+    .inner-pg #section1{
+        background-image:url('/assets/images/G0051970_d1000sm.jpg');
+    }
+    .inner-pg.tandem #section1{
+        background-image:url('/assets/images/tomtandemsminner.jpg');
+    }
 }
 @media (min-width:750px) { 
     #section2 .inline{
@@ -562,7 +567,7 @@ section h2{
 		opacity:1;
 	}
 	.bcg {
-         background-image:url('/assets/images/skydivingLg.jpg');
+         
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -571,8 +576,14 @@ section h2{
 		width: 100%;
 	}
 
-	#section1 .bcg {background-image:url('/assets/images/skydivingLg.jpg')}
-	.notfound #section1 .bcg {background-image:url('')}
+	#section1 .bcg {background-image:url('/assets/images/tomtandem.jpg')}
+    .inner-pg #section1{
+        background-image:url('/assets/images/G0051970_d1000.jpg');      
+    }
+    .inner-pg.tandem #section1{
+        background-image:url('/assets/images/tandeminner.jpg');
+    }
+	.notfound #section1 .bcg {background-image:url('/assets/images/G0051970_d1000.jpg')}
 	#section1{
 		padding-bottom:0px;		
 		height:800px;
